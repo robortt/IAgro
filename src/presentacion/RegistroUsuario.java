@@ -116,7 +116,7 @@ public class RegistroUsuario {
 		
 		MaskFormatter formatter = null;
 		try {
-			formatter = new MaskFormatter("#.###.###-#");
+			formatter = new MaskFormatter("########");
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
