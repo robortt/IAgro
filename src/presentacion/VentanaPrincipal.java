@@ -17,6 +17,8 @@ import aplicacion.IAgro;
 import javax.swing.JMenu;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JLabel;
+import javax.swing.ImageIcon;
 
 public class VentanaPrincipal {
 
@@ -77,7 +79,7 @@ public class VentanaPrincipal {
 		System.out.println(iagro.getUsuario().getRol());
 		frame = new JFrame();
 		frame.setTitle("Principal");
-		frame.setBounds(100, 100, 750, 500);
+		frame.setBounds(100, 100, 561, 449);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JDesktopPane desktopPane = new JDesktopPane();
@@ -128,6 +130,11 @@ public class VentanaPrincipal {
 			}
 		});
 		mnFormulario.add(mnCrear);
+		
+		JLabel lblFondo = new JLabel("");
+		lblFondo.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/IMG/registroFormulario.jpg")));
+		lblFondo.setBounds(0, 29, 561, 398);
+		desktopPane.add(lblFondo);
 		// hago el item no visible en caso el usuario sea comun
 		mnCrear.setVisible(false);
 		
