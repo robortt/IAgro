@@ -105,7 +105,8 @@ public class RegistroFormulario {
 				
 				Formulario formulario = new Formulario();
 				formulario.setNom_formulario(textFieldNombre.getText());
-				Usuario user = iagro.getUsuario();
+				//boolean resultado = iagro
+//				Usuario user = iagro.getUsuario();
 				
 				
 				
