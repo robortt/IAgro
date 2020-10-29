@@ -1,5 +1,9 @@
 /bin/
 .classpath
 .proyect
+.project
 lib/
 .settings/
+src/
+persistencia/
+.DatabaseManager
