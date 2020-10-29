@@ -7,7 +7,7 @@ public class FormularioBO {
 	
 	public boolean createFormulario(Formulario formulario) {
 		
-		return DAOFormulario.nuevoFormulario(formulario);
+		return DAOFormulario.createFormulario(formulario);
 	}
 	
 	public Formulario findFormulario(int id) {

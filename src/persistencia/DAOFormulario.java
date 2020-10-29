@@ -21,7 +21,7 @@ public class DAOFormulario {
 	private static final String FIND_FORMULARIO = "SELECT * FROM FORMULARIO WHERE ID_FORMULARIO = ?";
 	
 	//Insertar un formulario
-	public static boolean nuevoFormulario(Formulario formulario) {
+	public static boolean createFormulario(Formulario formulario) {
 		
 		try {
 			PreparedStatement insertForm = conexion.prepareStatement(INSERT_FORMULARIO);
