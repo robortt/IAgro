@@ -4,6 +4,4 @@
 .project
 lib/
 .settings/
-src/
-persistencia/
-DatabaseManager.java
+src/persistencia/DatabaseManager.java
